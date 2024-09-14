@@ -30,7 +30,7 @@ router.post("/getData", (req:RequestWithBody, res: Response) =>{
     if (password === "xinxin") {
         res.send("success")
     } else{
-        res.send("error")
+        res.send(`${req.xinName} error`)
     }
 }) 
 
