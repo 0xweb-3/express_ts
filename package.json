@@ -1,0 +1,17 @@
+{
+  "name": "express_ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:build": "tsc -w",
+    "dev:start": "nodemon node ./dist/index.js",
+    "dev": "tsc && concurrently npm:dev:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
